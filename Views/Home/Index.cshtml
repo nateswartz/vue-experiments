@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="vueApp">
+    <app></app>
+</div>
+
+<style>
+    [v-cloak] {
+        display: none
+    }
+</style>
+
+@section scripts {
+    <script src="~/dist/build.js" asp-append-version="true"></script>
+}
