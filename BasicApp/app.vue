@@ -2,11 +2,12 @@
   <div>
     <simple-counter></simple-counter>
     <simple-counter></simple-counter>
+    <simple-counter></simple-counter>
   </div>
 </template>
 
 <script>
-  import simpleCounter from './Components/simpleCounter.vue'
+  import simpleCounter from './Components/simpleCounter'
 
   export default {
     components: {

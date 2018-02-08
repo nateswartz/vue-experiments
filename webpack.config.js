@@ -5,10 +5,11 @@ module.exports = {
     resolve: {
         alias: {
             'vue$': 'vue/dist/vue.esm.js'
-        }
+        },
+        extensions: ['*', '.js', '.vue', '.json']
     },
     entry: {
-        app: 'C:/git/vue-testing/BasicApp/main.js'
+        app: path.resolve(__dirname,'./BasicApp/main.js')
     },
     output: {
         path: path.resolve(__dirname, './dist'),
